@@ -99,13 +99,13 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
+    "name": "Mauritius",
     "city": "Mauritius",
     "short": "Mauritius",
     "address": "Mauritius",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 20.3484,
+      "longitude": 57.5522,
       "zoom": 5
     },
     "mapCenter": {
