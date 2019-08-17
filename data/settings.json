@@ -25,14 +25,9 @@
       "label": "Home"
     },
     {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
+      "route": "https://sessionize.com/devfest-2019-mauritius/",
+      "permalink": "https://sessionize.com/devfest-2019-mauritius/",
+      "label": "Call for Paper"
     }
   ],
   "heroSettings": {
@@ -117,7 +112,7 @@
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox."
   },
   "mediaQueries": {
     "xs": {
