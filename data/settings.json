@@ -104,20 +104,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
+    "name": "Mauritius",
     "city": "Mauritius",
     "short": "Mauritius",
     "address": "Mauritius",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 20.3484,
+      "longitude": 57.5522,
       "zoom": 5
     },
     "mapCenter": {
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox."
   },
   "mediaQueries": {
     "xs": {
