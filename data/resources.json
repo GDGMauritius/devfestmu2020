@@ -1,0 +1,272 @@
+{
+  "title": "GDG DevFest Season 2019",
+  "description": "Be a hero. Be a GDG!",
+  "image": "images/social-share.jpg",
+  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "dates": "October 5, 2019",
+  "partnershipProposition": "https://bit.ly/dfua17-partners",
+  "share": "Share",
+  "followOur": "Follow our",
+  "followUs": "Follow us",
+  "emailUs": "Email us",
+  "partnershipResources": "Partnership Resources",
+  "eventResources": "Event Resources",
+  "buyTicket": "Register",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "viewHighlights": "View Highlights",
+  "offlineMessage": "You can still work offline.",
+  "cachingComplete": "Caching complete! Future visits will work offline.",
+  "newVersionAvailable": "A new version of this app is available.",
+  "refresh": "Refresh",
+  "position": "Position",
+  "country": "Country",
+  "time": "Time",
+  "faq": "/data/faq.md",
+  "cod": "/data/cod.md",
+  "footer": {
+    "blog": "Blog"
+  },
+  "mySchedule": {
+    "title": "My Schedule",
+    "browseSession": "Browse sessions"
+  },
+  "footerRelBlock": [
+    {
+      "title": "About",
+      "links": [
+        {
+          "name": "GDG Mauritius",
+          "url": "https://www.meetup.com/GDG-Mauritius/",
+          "newTab": true
+        },
+        {
+          "name": "Google Developers Group",
+          "url": "https://developers.google.com/groups/",
+          "newTab": true
+        },
+        {
+          "name": "Meet the Team",
+          "url": "https://www.meetup.com/GDG-Mauritius/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Explore Past DevFests",
+      "links": [
+        {
+          "name": "DevFest Mauritius 2018",
+          "url": "https://www.mscc.mu/devfest-mauritius-2018/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Event Resources",
+      "links": [
+        {
+          "name": "Partnership Proposition",
+          "url":"#",
+          "newTab": true
+        },
+        {
+          "name": "Call for Papers",
+          "url": "https://sessionize.com/devfest-2019-mauritius/",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "subscribeNote": "No spam, only the latest news and updates!",
+  "codeOfConduct": "Code of Conduct",
+  "aboutBlock": {
+    "title": "What you need to know, before you ask.",
+    "callToAction": {
+      "featuredSessions": {
+        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+
+
+        "label": "Explore featured session",
+        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      },
+      "howItWas": {
+        "description": "DevFest (Developers Festival) Mauritius is a single-day, single-track, inclusive conference for all developers. It is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.",
+
+
+        "label": "See how it was in 2018",
+        "youtubeId": "Ilv3W2OURVc"
+      }
+    },
+    "statisticsBlock": {
+      "attendees": {
+        "label": "Attendees",
+        "number": "300"
+      },
+      "days": {
+        "label": "Day",
+        "number": "1"
+      },
+      "sessions": {
+        "label": "Sessions",
+        "number": "20"
+      },
+      "tracks": {
+        "label": "Tracks",
+        "number": "3"
+      }
+    }
+  },
+  "ticketsBlock": {
+    "title": "Tickets",
+    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "soldOut": "You missed it!",
+    "notAvailableYet": "Not available yet",
+    "save": "Save ${discount}% today"
+  },
+  "partnersBlock": {
+    "title": "Partners",
+    "button": "Become a partner",
+    "form": {
+      "title": "Become a partner!",
+      "submitLabel": "Submit",
+      "fullName": "Full Name",
+      "companyName": "Company Name"
+    },
+    "toast": "We will contact you soon!"
+  },
+  "featuredVideos": {
+    "title": "DFUA'16 featured videos",
+    "callToAction": {
+      "label": "See all videos",
+      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+    }
+  },
+  "blog": {
+    "published": "Published",
+    "suggested": "Up next"
+  },
+  "latestPostsBlock": {
+    "title": "The latest news",
+    "callToAction": {
+      "label": "View all stories",
+      "link": "/blog/"
+    }
+  },
+  "speakers": {
+    "skills": "Skills",
+    "previousYears": "Years",
+    "previousYear": "Year"
+  },
+  "speakersBlock": {
+    "title": "Featured speakers",
+    "callToAction": {
+      "label": "View all speakers",
+      "link": "/speakers/"
+    }
+  },
+  "previousSpeakersBlock": {
+    "title": "Previous speakers",
+    "callToAction": {
+      "label": "View all",
+      "link": "/previous-speakers/"
+    }
+  },
+  "galleryBlock": {
+    "title": "#DevFestMu18 highlights",
+    "description": "Last year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "callToAction": {
+      "label": "See all photos",
+      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+    }
+  },
+  "mapBlock": {
+    "title": "Location"
+  },
+  "subscribeBlock": {
+    "callToAction": {
+      "description": "Get notified about the important conference updates",
+      "label": "Subscribe"
+    },
+    "yourEmail": "Your email",
+    "emailAddress": "Email Address",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "formTitle": "Get the latest updates, insights and news about GDG DevFest Mauritius sent to your inbox.",
+    "emailRequired": "Please enter a valid email address.",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed",
+    "close": "Close",
+    "generalError": "An error has occurred. Please, try again later.",
+    "toast": "Successfully subscribed!"
+  },
+  "team": {
+    "description": "The GDG Mauritius is a local community-ran meetup for developers interested in resources and technology from Google Developers."
+  },
+  "schedule": {
+    "saveSessionsSignedOut": "Sign in to save sessions"
+  },
+  "sessionDetails": {
+    "contentLevel": "Content level",
+    "viewPresentation": "View presentation",
+    "viewVideo": "View video",
+    "speakers": "Speakers"
+  },
+  "speakerDetails": {
+    "sessions": "Sessions"
+  },
+  "notifications": {
+    "default": "Enable notifications",
+    "enabled": "We will miss you but you can unsubscribe anytime",
+    "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "enable": {
+      "label": "Enable",
+      "link": "https://pushassist.com/knowledgebase/how-to-enable-or-disable-push-notifications-on-chrome-firefox-safari-b/"
+    },
+    "toast": {
+      "title": "Open"
+    }
+  },
+  "aboutOrganizerBlock": {
+    "image": "/images/chairs.jpg",
+    "blocks": [
+      {
+        "title": "The Event",
+        "description": "This is a gathering of developers and technology enthusiasts to cover multiple product areas such as Android, Firebase, Android Things, Kotlin, Flutter, Google Cloud Platform, ARCore, Google Assistant, Design Sprint, IoT, Machine Learning, Mobile Web and Artificial intelligence.",
+        "callToAction": {
+          "label": "Read about last year's experience ",
+          "link": "https://www.mscc.mu/devfest-mauritius-2018/"
+        }
+      },
+      {
+        "title": "Did someone say food?",
+        "description": "We will provide free Lunch and Refreshments. Many Google and other technologies branded swags are also available for free. ",
+        "callToAction": {
+          "label": "Read more",
+          "link": "https://developers.google.com/groups/",
+          "newTab": true
+        }
+      }
+    ]
+  },
+  "signInDialog": {
+    "alreadyHaveAccount": "You already have an account",
+    "alreadyUsed": "You've already used",
+    "signInToContinue": {
+      "part1": "Sign in with",
+      "part2": "to continue."
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "results": "Results",
+    "tags": "Tags",
+    "complexity": "Complexity",
+    "clear": "Clear all"
+  },
+  "addToHomeScreen": {
+    "cta": "Add to Home Screen"
+  }
+}
