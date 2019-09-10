@@ -1,16 +1,16 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
+  "url": "https://devfest.mscc.mu/",
   "analytics": "",
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyDPaY9JU1FqdjM22f9ZAoyD1pScoeucXMc",
-    "authDomain": "strong-surge-225709.firebaseapp.com",
-    "databaseURL": "https://strong-surge-225709.firebaseio.com",
-    "projectId": "strong-surge-225709",
-    "storageBucket": "strong-surge-225709.appspot.com",
-    "messagingSenderId": "509007155915",
-    "appId": "1:509007155915:web:4856defa1a12fd1b"
+    "authDomain": "devfest2019-e289c.firebaseapp.com",
+    "databaseURL": "https://devfest2019-e289c.firebaseio.com",
+    "projectId": "devfest2019-e289c",
+    "storageBucket": "devfest2019-e289c.appspot.com",
+    "messagingSenderId": "930609604979",
+    "appId": "1:930609604979:web:4856defa1a12fd1b"
   },
-  "googleMapApiKey": ""
+  "googleMapApiKey": "AIzaSyC8spznQKvaKoSYQDlqHbPPxG53o6VYxAA"
 }

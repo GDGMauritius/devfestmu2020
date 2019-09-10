@@ -2,11 +2,11 @@
   "organizer": {
     "name": "GDG Mauritius",
     "twitter": "gdgmauritius",
-    "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "blog": "https://www.mscc.mu/gdg-mauritius/",
+    "url": "https://devfest.mscc.mu/"
   },
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2019-10-05T09:00:00+04:00",
+  "endDate": "2019-10-05T16:30:00+04:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#673AB7",
@@ -56,14 +56,6 @@
       },
       "fontColor": "#424242"
     },
-    "previousSpeakers": {
-      "title": "Previous Speakers",
-      "metaDescription": "Check who was with us last years",
-      "background": {
-        "color": "#FFF"
-      },
-      "fontColor": "#424242"
-    },
     "schedule": {
       "title": "Schedule",
       "metaDescription": "Choose your sessions to visit",
@@ -104,15 +96,15 @@
     "short": "Mauritius",
     "address": "Mauritius",
     "pointer": {
-      "latitude": 20.3484,
+      "latitude": -20.3484,
       "longitude": 57.5522,
       "zoom": 5
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": -20,
+      "longitude": 57
     },
-    "description": "Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox."
+    "description": "Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rain forests, waterfalls, hiking trails and wildlife like the flying fox."
   },
   "mediaQueries": {
     "xs": {
@@ -152,7 +144,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "devfest@mscc.mu",
   "signInProviders": {
     "providersData": [
       {
