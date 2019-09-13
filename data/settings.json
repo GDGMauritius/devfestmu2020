@@ -96,13 +96,13 @@
     "short": "Mauritius",
     "address": "Mauritius",
     "pointer": {
-      "latitude": -20.3484,
-      "longitude": 57.5522,
-      "zoom": 5
+      "latitude": -20.28868,
+      "longitude": 57.44246,
+      "zoom": 11
     },
     "mapCenter": {
-      "latitude": -20,
-      "longitude": 57
+      "latitude": -20.2484,
+      "longitude": 57.4522
     },
     "description": "Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rain forests, waterfalls, hiking trails and wildlife like the flying fox."
   },
@@ -153,9 +153,7 @@
         "url": "https://accounts.google.com"
       }
     ],
-    "allowedProvidersUrl": [
-      "https://accounts.google.com"
-    ]
+    "allowedProvidersUrl": ["https://accounts.google.com"]
   },
   "contentLoaders": {
     "schedule": {
