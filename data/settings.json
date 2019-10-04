@@ -25,9 +25,9 @@
       "label": "Home"
     },
     {
-      "route": "https://sessionize.com/devfest-2019-mauritius/",
-      "permalink": "https://sessionize.com/devfest-2019-mauritius/",
-      "label": "Call for Paper"
+      "route": "schedule",
+      "permalink": "/schedule",
+      "label": "Agenda"
     }
   ],
   "heroSettings": {
@@ -91,10 +91,10 @@
   },
   "location": {
     "label": "Location",
-    "name": "Mauritius",
-    "city": "Mauritius",
+    "name": "SUPINFO International University, Pierrefonds Campus",
+    "city": "Pierrefonds",
     "short": "Mauritius",
-    "address": "Mauritius",
+    "address": "Pierrefonds Campus, Mauritius",
     "pointer": {
       "latitude": -20.28868,
       "longitude": 57.44246,
