@@ -141,7 +141,7 @@
         </paper-tab>
         {% endfor %}
 
-        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+        <!-- <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab> -->
 
         <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
           ga-event-category="ticket button" ga-event-action="buy_click">
@@ -149,7 +149,7 @@
         </a>
       </paper-tabs>
 
-      <paper-menu-button id="notificationsMenu" class="notifications-menu" vertical-align="top" horizontal-align="right"
+      <!-- <paper-menu-button id="notificationsMenu" class="notifications-menu" vertical-align="top" horizontal-align="right"
         no-animations>
         <paper-icon-button icon="hoverboard:[[_getNotificationsIcon(notifications.status)]]" slot="dropdown-trigger">
         </paper-icon-button>
@@ -176,7 +176,7 @@
             </div>
           </div>
         </div>
-      </paper-menu-button>
+      </paper-menu-button> -->
 
       <paper-menu-button class="auth-menu" hidden$="[[!user.signedIn]]" vertical-align="top" horizontal-align="right"
         no-animations layout horizontal center-center>
@@ -191,9 +191,9 @@
           </div>
         </div>
       </paper-menu-button>
-
+      <!-- 
       <paper-icon-button icon="hoverboard:account" on-tap="signIn"
-        hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"></paper-icon-button>
+        hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"></paper-icon-button> -->
     </app-toolbar>
 
   </template>

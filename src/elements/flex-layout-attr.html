@@ -27,11 +27,18 @@ The following imports are available:
 <dom-module id="flex">
   <template>
     <style>
+      [layout][horizontal][f-video]{
+
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       [layout][horizontal],
       [layout][vertical] {
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
+       
       }
 
       [layout][inline] {
