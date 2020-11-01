@@ -1,9 +1,9 @@
 {
-  "title": "GDG DevFest Season 2019",
+  "title": "GDG DevFest Season 2020",
   "description": "Be a hero. Be a GDG!",
   "image": "images/social-share.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 5, 2019",
+  "dates": "November 21, 2020",
   "partnershipProposition": "#",
   "share": "Share",
   "followOur": "Follow our",
@@ -99,7 +99,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "250"
+        "number": "100"
       },
       "days": {
         "label": "Day",
@@ -107,11 +107,11 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "24"
+        "number": "10"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "4"
+        "label": "Track",
+        "number": "1"
       }
     }
   },
@@ -134,7 +134,7 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "What's Awaiting at DevFest 2019!",
+    "title": "What's Awaiting at DevFest 2020!",
     "callToAction": {
       "label": "See all videos",
       "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"

@@ -76,22 +76,10 @@
           "url": "https://www.sdworx.com/"
         },
         {
-          "order": 1,
-          "logoUrl": "../images/logos/spoon.png",
-          "name": "Spoon Consulting",
-          "url": "http://www.spoonconsulting.com/"
-        },
-        {
           "order": 2,
           "logoUrl": "../images/logos/ios.png",
           "name": "IOS",
           "url": "http://www.ios.mu/"
-        },
-        {
-          "order": 3,
-          "logoUrl": "../images/logos/supinfo.png",
-          "name": "SUPINFO",
-          "url": "https://www.supinfo.com/maurice/"
         },
         {
           "order": 4,
