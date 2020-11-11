@@ -15,7 +15,7 @@
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest19",
+  "hashtag": "DevFest20",
   "disabledSchedule": false,
   "showSessionShortAbstract": true,
   "navigation": [
@@ -32,8 +32,8 @@
     {
       "route": "speakers",
       "permalink": "/speakers",
-      "label": "Speakers"
-    }
+	  "label": "Speakers"
+	}
   ],
   "heroSettings": {
     "home": {
@@ -96,10 +96,10 @@
   },
   "location": {
     "label": "Location",
-    "name": "SUPINFO International University, Pierrefonds Campus",
-    "city": "Pierrefonds",
+    "name": "Uniciti",
+    "city": "Uniciti Education Hub, Pierrefonds, Mauritius",
     "short": "Mauritius",
-    "address": "Pierrefonds Campus, Mauritius",
+    "address": " Uniciti Education Hub, Pierrefonds, Mauritius",
     "pointer": {
       "latitude": -20.28868,
       "longitude": 57.44246,

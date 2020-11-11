@@ -55,11 +55,17 @@
     {
       "title": "Explore Past DevFests",
       "links": [
+		{
+			"name": "DevFest Mauritius 2019",
+			"url": "https://devfest2019.mscc.mu/",
+			"newTab": true
+		},
         {
           "name": "DevFest Mauritius 2018",
           "url": "https://www.mscc.mu/devfest-mauritius-2018/",
           "newTab": true
-        }
+		}
+		
       ]
     },
     {
@@ -67,12 +73,12 @@
       "links": [
         {
           "name": "Partnership Proposition",
-          "url": "#",
+          "url": "https://drive.google.com/file/d/1_YM93LFRBuUUmzFACcL7kNgfRR2t5r6y/view",
           "newTab": true
         },
         {
           "name": "Call for Papers",
-          "url": "https://sessionize.com/devfest-2019-mauritius/",
+          "url": "https://sessionize.com/devfest-2020-mauritius/",
           "newTab": true
         }
       ]
@@ -84,10 +90,10 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+        "description": "Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
 
-        "label": "Register for the event on MeetUp",
-        "link": "https://www.meetup.com/GDG-Mauritius/events/262224585/"
+        "label": "Register for the event",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScl01IQ3QiDdg9FKa8az699a4WSG3O_yzutGoW4ZwI3SJzFGQ/viewform"
       },
       "howItWas": {
         "description": "DevFest (Developers Festival) Mauritius is a single-day, single-track, inclusive conference for all developers. It is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.",
@@ -111,7 +117,7 @@
       },
       "tracks": {
         "label": "Track",
-        "number": "1"
+        "number": "2"
       }
     }
   },
@@ -171,11 +177,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#DevFest18 highlights",
+    "title": "#DevFest19 highlights",
     "description": "Last year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://photos.app.goo.gl/T5H2NbkY5QyrsXKz9"
+      "link": "https://photos.app.goo.gl/1aJkG3ryXSXdcnv96"
     }
   },
   "mapBlock": {
@@ -228,19 +234,19 @@
     }
   },
   "aboutOrganizerBlock": {
-    "image": "/images/chairs.jpg",
+    "image": "/images/tree.jpg",
     "blocks": [
       {
         "title": "The Event",
         "description": "This is a gathering of developers and technology enthusiasts to cover multiple product areas such as Android, Firebase, Android Things, Kotlin, Flutter, Google Cloud Platform, ARCore, Google Assistant, Design Sprint, IoT, Machine Learning, Mobile Web and Artificial intelligence.",
         "callToAction": {
           "label": "Read about last year's experience ",
-          "link": "https://www.mscc.mu/devfest-mauritius-2018/"
+          "link": "https://www.mscc.mu/devfest-mauritius-2019/"
         }
       },
       {
         "title": "Did someone say food?",
-        "description": "We will provide free Lunch and Refreshments. Many Google and other technologies branded swags are also available for free. ",
+        "description": "We will provide free Lunch and Refreshments.Branded swags are also available for free",
         "callToAction": {
           "label": "Read more",
           "link": "https://developers.google.com/groups/",
