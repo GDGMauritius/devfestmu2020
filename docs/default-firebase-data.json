@@ -102,6 +102,15 @@
     "2020-11-21": {
       "dateReadable": "21st November",
       "timeslots": [
+		{
+			"endTime": "09:00",
+			"sessions": [
+			  {
+				"items": [0]
+			  }
+			],
+			"startTime": "08:15"
+		  },
         {
           "endTime": "10:00",
           "sessions": [
@@ -109,7 +118,7 @@
               "items": [1]
             }
           ],
-          "startTime": "09:05"
+          "startTime": "09:00"
         },
         {
           "endTime": "11:00",
@@ -192,6 +201,12 @@
     }
   },
   "sessions": {
+	"0": {
+		"description": "Registration",
+		"icon": "registration",
+		"image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+		"title": "Registration"
+	  },
 	"1": {
 		"description": "Opening Keynote",
 		"icon": "opening",

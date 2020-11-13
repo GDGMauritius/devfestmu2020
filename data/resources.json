@@ -87,7 +87,7 @@
   "subscribeNote": "No spam, only the latest news and updates!",
   "codeOfConduct": "Code of Conduct",
   "aboutBlock": {
-    "title": "What you need to know, before you ask.",
+    "title": "About GDG Mauritius",
     "callToAction": {
       "featuredSessions": {
         "description": "Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -96,7 +96,7 @@
         "link": "https://docs.google.com/forms/d/e/1FAIpQLScl01IQ3QiDdg9FKa8az699a4WSG3O_yzutGoW4ZwI3SJzFGQ/viewform"
       },
       "howItWas": {
-        "description": "DevFest (Developers Festival) Mauritius is a single-day, single-track, inclusive conference for all developers. It is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.",
+        "description": "DevFest (Developers Festival) Mauritius is a single-day, two-track, inclusive conference for all developers. It is an annual community-run event that offers keynote speakers who are very influential, speaker sessions across multiple product areas, including hack-a-thons, codelabs, and more.",
 
         "label": "See how it was in 2018",
         "youtubeId": "Ilv3W2OURVc"

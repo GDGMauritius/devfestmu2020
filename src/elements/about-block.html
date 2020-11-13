@@ -67,22 +67,44 @@
       <div class="content">
 
         <div>
+			<h1 class="container-title">What you need to know</h1>
+
+		
+			<p>We are so thrilled to have so many registrations for the Google DevFest 2020.<br><br>
+				Due to the recent development, the Uniciti security will only allow 100 attendees at a time on premises. We need to comply with precautionary measures as your safety is our priority. <br><br>
+				
+				The following steps will be strictly applied: <br>
+				
+				• Temperature check will be done before entering the campus<br>
+				• Face mask is compulsory<br>
+				• Keep your mask at all time except for drinking or eating<br>
+				• Hand sanitisers will be provided<br>
+				• Social distancing is advisable<br><br>
+				
+				In case of any safety protocol breach, attendees will be requested to leave the campus.<br>
+				
+				
+				Thank you for your understanding!</p>
+		
+				<a
+				  href="{$ aboutBlock.callToAction.featuredSessions.link $}"
+				  ga-on="click"
+				  ga-event-category="video"
+				  ga-event-action="watch"
+				  ga-event-label="about block - {$ aboutBlock.callToAction.featuredSessions.label $}"
+				  target="_blank"
+				  rel="noopener noreferrer"
+				>
+				  <paper-button class="animated icon-right">
+					<span class="cta-label">{$ aboutBlock.callToAction.featuredSessions.label $}</span>
+					<iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+				  </paper-button>
+				</a>
+
+				<br>	<br>	<br>
+  
           <h1 class="container-title">{$ aboutBlock.title $}</h1>
           <p>{$ aboutBlock.callToAction.featuredSessions.description $}</p>
-          <a
-            href="{$ aboutBlock.callToAction.featuredSessions.link $}"
-            ga-on="click"
-            ga-event-category="video"
-            ga-event-action="watch"
-            ga-event-label="about block - {$ aboutBlock.callToAction.featuredSessions.label $}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <paper-button class="animated icon-right">
-              <span class="cta-label">{$ aboutBlock.callToAction.featuredSessions.label $}</span>
-              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-            </paper-button>
-          </a>
 
           <p>{$ aboutBlock.callToAction.howItWas.description $}</p>
           <paper-button
