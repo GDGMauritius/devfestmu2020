@@ -243,9 +243,9 @@
     },
     "6": {
       "language": "English",
-	  "title": "Deep dive into Angular Forms",
-      "description": "Forms are an unavoidable staple of application development, regardless of platform or framework. In this talk, we shall explore the tools and utilities provided by angular, and how to leverage them to build beautiful, maintainable and accessible forms, as well as common pitfalls to avoid when building forms.",
-        "speakers": ["Bilkiss","Christophe"]
+	  "title": "A structured approach to Flutter Development for Beginners",
+      "description": "Curious about the whole flutter buzz? Tag along as we explain the main mechanics behind flutter development and how the use of controllers and views can simplify your development process.",
+        "speakers": ["Nurmaan"]
     },
     "7": {
       "language": "English",
@@ -299,24 +299,6 @@
   
       "photoUrl":  "https://sessionize.com/image?f=8bb0c821b83d01360a954da6a7b49fb9,400,400,1,0,6d-adc2-40fa-a6f2-7c66ae84a525.58c9a0b6-3a0d-4630-a06b-af35f331cd18.jpg"
     },
-    "Bilkiss": {
-      "name": "Bilkiss Dulloo",
-  
-      "bio": "In the field in the front end development more than 10 years, I am passionate about this field, and thrilled that there are so much new and exciting technologies and / or frameworks to learn every day. I love tools that boost my productivity as a front end dev, be it CSS preprocessors, JS client side MV* frameworks, or even build tools to ease mundane tasks.\r\n\r\nI am also sometimes OCD about code quality and formatting, since I believe good code should be easily readable by fellow human beings. Always ready for new challenges and experiences, and always keeping track of the new trends / techs surfacing every day.",
-  
-      "title": "Outpro Group Ltd - Senior Frontend Dev",
-  
-      "photoUrl": "https://sessionize.com/image?f=0f47441a7281a0009c91603bb9a0e568,400,400,1,0,70-2d57-4835-9966-46f7a3c535ee.56ce11e9-fdcf-4879-b13e-bf1a388e9bdb.jpg"
-	}, 
-	"Christophe": {
-		"name": "Christophe Ramsamy",
-	
-		"bio": "Programmer by passion, I recently discovered the joys of freelancing. new technologies and possibilities in the web development sphere make me eager to try building new toys and more serious projects.",
-
-		"title": "Geek, Hacker, Tinkerer and everything in between",
-	
-		"photoUrl":"https://sessionize.com/image?f=f35018597b49796a0cd6ace2d25548df,400,400,1,0,0b05a9a4-15d8-4920-830d-1cc1ce1153b7.jpg"
-	  }, 
     "Jochen": {
       "name": "Jochen Kirstätter",
   
@@ -353,6 +335,15 @@
 
   
       "photoUrl": "https://sessionize.com/image?f=220e0e274840190b57380f6569ac8510,400,400,1,0,71809a1b-bdd4-4460-a99a-4ca7205b8e05.jpg"
+	},
+    "Nurmaan": {
+      "name": "Nurmaan Ramoly",
+  
+	  "bio":"Director of Normium Technologies Ltd, Student at Middlesex University Mauritius, Developer at Navigation and Geocoding Technology Ltd",
+
+	  "title":"Director of Normium Technologies Ltd, Student at Middlesex University Mauritius, Developer at Navigation and Geocoding Technology Ltd",
+  
+      "photoUrl":  "https://sessionize.com/image?f=cb2382d5cad20bf2f34281f7940d54a1,400,400,1,0,8c-9b61-4206-9907-3c0bd54d7a93.454bfd1f-0897-47c4-b394-ad3238584bab.jpeg"
     },
     "Pritvi": {
       "name": "Pritvi Jheengut",
@@ -386,9 +377,9 @@
     "Yusuf": {
       "name": "Yusuf Satar",
   
-      "bio":"Web Developer",
+      "bio":"Vitae Non Scholae Discendum",
   
-      "title": "Vitae Non Scholae Discendum",
+      "title": "Web Developer",
   
       "photoUrl": "https://sessionize.com/image?f=2dc778723d40c9947d154c83191b3b53,400,400,1,0,16-e715-4dab-8fa8-60f8281e3269.203d0cdb-a378-4fa4-95b5-9883aba320c0.png"
     }

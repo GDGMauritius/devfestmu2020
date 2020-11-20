@@ -1,16 +1,18 @@
 {
-  "basepath": "/",
-  "url": "https://devfest.mscc.mu/",
-  "analytics": "",
-  "prefix": "/",
-  "firebase": {
-    "apiKey": "AIzaSyDPaY9JU1FqdjM22f9ZAoyD1pScoeucXMc",
-    "authDomain": "devfest2019-e289c.firebaseapp.com",
-    "databaseURL": "https://devfest2019-e289c.firebaseio.com",
-    "projectId": "devfest2019-e289c",
-    "storageBucket": "devfest2019-e289c.appspot.com",
-    "messagingSenderId": "930609604979",
-    "appId": "1:930609604979:web:4856defa1a12fd1b"
+	"basepath": "/",
+	"url": "https://devfest-2020-7237c.web.app/",
+	"analytics": "",
+	"prefix": "/",
+	"firebase": {
+	"apiKey": "AIzaSyA9TlXv7v1WA6HVubBNTQmWVqeB7ncw3-g",
+	"authDomain": "devfest-2020-7237c.firebaseapp.com",
+	"databaseURL": "https://devfest-2020-7237c.firebaseio.com",
+	"projectId": "devfest-2020-7237c",
+	"storageBucket": "devfest-2020-7237c.appspot.com",
+	"messagingSenderId": "778311514136",
+	"appId": "1:778311514136:web:d8d360a2104a5026d9eb6d",
+	"measurementId": "G-WQDKZJFQ2D"
   },
-  "googleMapApiKey": "AIzaSyC8spznQKvaKoSYQDlqHbPPxG53o6VYxAA"
-}
+	"googleMapApiKey": "AIzaSyC8spznQKvaKoSYQDlqHbPPxG53o6VYxAA"
+  }
+  
