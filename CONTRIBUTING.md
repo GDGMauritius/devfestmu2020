@@ -65,3 +65,9 @@ If a proposed change contains multiple commits, please [squash commits](https://
 
 
 _Copied from [Polymer Elements contributing guide](https://github.com/PolymerElements/ContributionGuide/blob/master/CONTRIBUTING.md)_
+
+## Branch Protection & Commit Sign-Off (DCO)
+
+- **Pull Requests Only**: Direct pushes and force-pushes to the default branch (`main` / `master`) are disabled. Always create a feature branch and open a Pull Request.
+- **Mandatory Commit Sign-Off (`-s`)**: Every commit must be signed off under the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) using `git commit -s` (which adds a `Signed-off-by: Name <email>` trailer). You can enable this globally with `git config --global format.signoff true`.
+
