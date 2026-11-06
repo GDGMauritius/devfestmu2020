@@ -208,7 +208,6 @@ function getConfigPath() {
   return path;
 }
 
-gulp.task('default', build);
 gulp.task('default', gulp.series(lint, build));
 
 gulp.task('lint', lint);

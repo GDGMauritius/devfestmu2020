@@ -36,7 +36,7 @@ const sendGeneralNotification = functions.firestore.document('/notifications/{ti
         console.error('Failure sending notification to', tokens[index], error);
         if (error.code === 'messaging/invalid-registration-token' ||
           error.code === 'messaging/registration-token-not-registered') {
-          tokensToRemove.push(tokensSnapshot.ref.child(tokens[index]).remove());
+          tokensToRemove.push(firestore().collection('notificationsSubscribers').doc(tokens[index]).delete());
         }
       }
     });

@@ -8,6 +8,7 @@ const mailchimpSubscribe = functions.firestore.document('/subscribers/{id}')
     const mailchimpConfig = functions.config().mailchimp;
     if (!mailchimpConfig) {
       console.log('Can\'t subscribe user, Mailchimp config is empty.');
+      return null;
     }
 
     const subscriber = snapshot.data();

@@ -25,7 +25,7 @@ const generateUrl = (request) => {
  * checkForBots() - regex that UserAgent, find me a linkbot
  * @param {String} userAgent
  */
-const checkForBots = (userAgent) => {
+const checkForBots = (userAgent = '') => {
   // These are link bots only!
   // DO NOT ADD GOOGLEBOT.
   // If you add Googlebot to this, you will not have a good day.

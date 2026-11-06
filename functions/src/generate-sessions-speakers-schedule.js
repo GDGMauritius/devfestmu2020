@@ -68,18 +68,24 @@ async function generateAndSaveData(changedSpeaker) {
     generatedData.speakers[changedSpeaker.id] = changedSpeaker;
   }
 
-  saveGeneratedData(generatedData.sessions, 'generatedSessions');
-  saveGeneratedData(generatedData.speakers, 'generatedSpeakers');
-  saveGeneratedData(generatedData.schedule, 'generatedSchedule');
+  await Promise.all([
+    saveGeneratedData(generatedData.sessions, 'generatedSessions'),
+    saveGeneratedData(generatedData.speakers, 'generatedSpeakers'),
+    saveGeneratedData(generatedData.schedule, 'generatedSchedule'),
+  ]);
 }
 
 function saveGeneratedData(data, collectionName) {
-  if (!data || !Object.keys(data).length) return;
+  if (!data || !Object.keys(data).length) return Promise.resolve();
 
+  const promises = [];
   for (let index = 0; index < Object.keys(data).length; index++) {
     const key = Object.keys(data)[index];
-    firestore().collection(collectionName)
-      .doc(key)
-      .set(data[key]);
+    promises.push(
+      firestore().collection(collectionName)
+        .doc(key)
+        .set(data[key])
+    );
   }
+  return Promise.all(promises);
 }

@@ -15,7 +15,7 @@ const removeUserTokens = tokensToUsers => {
   const promises = Object.keys(userTokens).map(userId => {
     const ref = firestore().collection('notificationsUsers').doc(userId);
 
-    return firestore.runTransaction(transaction => transaction
+    return firestore().runTransaction(transaction => transaction
       .get(ref)
       .then(doc => {
         if (!doc.exists) {
@@ -23,13 +23,14 @@ const removeUserTokens = tokensToUsers => {
         }
 
         const val = doc.data();
-        const newVal = Object.keys(val).reduce((acc, token) => {
+        const currentTokens = val.tokens || {};
+        const newTokens = Object.keys(currentTokens).reduce((acc, token) => {
           if (tokensToUsers[token]) return acc;
 
           return { ...acc, [token]: true };
         }, {});
 
-        transaction.set(newVal);
+        transaction.set(ref, { ...val, tokens: newTokens });
       })
     );
   });
@@ -46,7 +47,9 @@ const sendPushNotificationToUsers = async (userIds, payload) => {
   const tokensToUsers = usersTokens.reduce((aggregator, userTokens) => {
     if (!userTokens.exists) return aggregator;
     const { tokens } = userTokens.data();
-    return { ...aggregator, tokens };
+    if (!tokens) return aggregator;
+    const mappedTokens = Object.keys(tokens).reduce((acc, token) => ({ ...acc, [token]: userTokens.id }), {});
+    return { ...aggregator, ...mappedTokens };
   }, {});
   const tokens = Object.keys(tokensToUsers);
 
@@ -88,7 +91,7 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
         });
 
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
-        timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
+        timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], result), []);
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
 
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
