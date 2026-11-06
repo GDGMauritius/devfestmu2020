@@ -3,6 +3,7 @@ dist/
 node_modules/
 build/
 functions/lib/
+functions/dist/
 .idea/
 .temp/
 .vscode/
@@ -13,4 +14,3 @@ serviceAccount.json
 npm-debug.log
 firebase-debug.log
 .DS_Store
-.firebase/
